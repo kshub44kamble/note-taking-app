@@ -52,8 +52,11 @@ function App() {
 
   return (
     <div className="App">
-      <div className="app_heading">
-      <h1 className="app_title">Note taking app!</h1>
+      <div className="app__heading">
+        <div className="app__title">
+      <h1 className="">Note taking app!</h1>
+
+        </div>
       <div className="app__searchInput">
 
       <input type="text" className="" placeholder="Search" />
