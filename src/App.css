@@ -3,9 +3,25 @@
 }
 
 .app_heading {
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(6, 6, 14);
+  padding: 10px;
+}
+
+.app__searchInput {
+  display: flex;
+  
+}
+
+.app__searchBtn {
+  background-color: green;
+  color: white;
+  margin-left: 10px;
+}
+
+.app_title {
+  color: white;
 }
 
 .app__form {
@@ -35,6 +51,7 @@
 .app__card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+
 }
 
 .app__card {
@@ -43,4 +60,5 @@
 
 .app__showData {
   padding: 2px 16px;
+  
 }

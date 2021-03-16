@@ -52,7 +52,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="app_heading">Note taking app!</h1>
+      <div className="app_heading">
+      <h1 className="app_title">Note taking app!</h1>
+      <div className="app__searchInput">
+
+      <input type="text" className="" placeholder="Search" />
+      <button className="app__searchBtn">Search</button>
+      </div>
+      </div>
       <form className="app__form">
         <input
           className="app__input"
